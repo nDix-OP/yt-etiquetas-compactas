@@ -31,22 +31,6 @@ el texto ya visible en la página de YouTube, en tu propio navegador.
 Si luego editas `content.js` o `manifest.json`, vuelve a `brave://extensions`
 y pulsa el icono de recarga (↻) de la tarjeta de la extensión.
 
-## Publicarla en la Chrome Web Store
-
-1. Crea una cuenta de desarrollador en el
-   [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole)
-   (pago único de registro, aprox. 5 USD).
-2. Sube el mismo `yt-etiquetas-compactas.zip` tal cual (contiene ya
-   `manifest.json` en la raíz, que es lo que exige la Web Store).
-3. Añade capturas de pantalla (antes/después de una tarjeta de vídeo),
-   una descripción y elige la categoría "Productividad" o "Herramientas para
-   redes sociales".
-4. Como la extensión no pide permisos sensibles (no hay `permissions` ni
-   `host_permissions` de lectura de datos personales, solo un content script
-   sobre youtube.com), la revisión suele ser rápida.
-5. Envíala a revisión. Una vez aprobada, obtienes un enlace público que
-   puedes instalar desde cualquier navegador Chromium, incluido Brave.
-
 ## Notas técnicas
 
 - Manifest V3, un único content script (`content.js`), sin librerías
